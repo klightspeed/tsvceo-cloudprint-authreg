@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>CloudPrint Printer Auth Server Registration Service</title>
+    </head>
+    <body>
+        <h1>Query</h1>
+        <form action="/query" method="GET">
+            <p>
+                <label for="id">Printer ID: </label>
+                <input type="text" name="printerid" />
+            </p>
+            <p>
+                <input type="submit" value="Query" />
+            </p>
+        </form>
+        <hr />
+        <h1>Register</h1>
+        <form action="/register" method="POST">
+            <p>
+                <label for="id">Printer ID: </label>
+                <input type="text" name="printerid" />
+            </p>
+            <p>
+                <label for="authserver">Auth Server: </label>
+                <input type="text" name="authserver" />
+            </p>
+            <p>
+                <input type="submit" value="Register" />
+            </p>
+        </form>
+    </body>
+</html>
